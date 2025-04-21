@@ -1,0 +1,89 @@
+.content{
+    margin: 0 auto;
+}
+body{
+        font-family: Verdana, sans-serif;
+        line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;}
+.padding16{
+    padding:16px;
+}
+.padding16 i{
+    font-size: 24px;
+}
+.row1::after,.row2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col50{
+    float: left;
+    padding: 0 16px;
+    width: 50%;
+}
+.text1{
+    color: #f1f1f1;
+    font-size: 36px;
+}
+.text2{
+    color: #757575;
+    font-size: 36px;
+}
+.text4{
+    color: #757575;
+    font-size: 24px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -8px;
+}
+.box{
+    width: 50%;
+    padding: 0 16px;
+}
+.col33{
+    float: left;
+    width: 33.333%;
+    padding: 0px 16px;
+    height: 250px;
+}
+.col33 p{
+padding: 8px 0;
+font-size: 18px;
+}
+.row2{
+    color: white;
+    padding: 16px 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    padding: 16px;
+}
+.footer p{
+    font-size: 15px;
+    color:#757575
+}
+.footer a{
+    color:#757575
+}
+img{
+    vertical-align: middle;
+}
+@media screen and (max-width:601px) {
+    .col50,.col33,.box{
+        width: 100%;
+    }
+    .flex-container{
+       display:block
+    }
+    
+}
